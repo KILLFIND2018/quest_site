@@ -1,0 +1,131 @@
+@font-face {
+  font-family: "BancoItcLight";
+  src: url(/images/home/BancoLightTT.ttf);
+}
+* {
+
+  font-family: "BancoItcLight";
+  color:#421800;
+
+}
+body,
+html {
+  height: 100%;
+  overflow: hidden;
+}
+
+.slideshow {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+.slideshow .slider {
+  height: 100%;
+  width: 100%;
+  z-index: 2;
+}
+.slideshow .slider * {
+  outline: none;
+}
+.slideshow .slider .item {
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+  overflow: hidden;
+  border: none;
+  
+
+    background: url(/images/home/back.png) no-repeat !important;
+    -moz-background-size: 100%;
+    -webkit-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: cover !important;
+}
+
+.slideshow.slideshow-right {
+  left: 0;
+  z-index: 1;
+  width: 50vw;
+  pointer-events: none;
+}
+.slideshow.slideshow-right .slider {
+  left: 0;
+  position: absolute;
+}
+
+p{
+  font-weight: normal;
+  font-size: 200%;
+  text-align: left;
+  margin: 0%;
+  padding: 5%;
+}
+.main {
+  font-size: 66pt;
+  line-height: 1.2;
+  margin: 0;
+  padding: 20px;
+  word-break: break-word;
+}
+
+h1, h2 {
+  font-weight: normal;
+  font-size: 350%;
+  text-align: center;
+  margin: 0%;
+  padding: 5%;
+}
+span {
+
+  font-weight: bold;
+}
+
+.block-header {
+  padding: 20px;
+  text-align: center;
+  outline: 3px solid #421800 !important;
+  border: 7px solid #1b150e47;
+  background-color: #444a4a38;
+  position: absolute;
+
+  top: 20%;
+  left: 10%;
+  right: 10%;
+
+    
+
+}
+
+label {
+  font-weight: normal;
+  font-size: 200%;
+  text-align: left;
+  margin: 0%;
+  padding: 0%;
+}
+
+button {
+  border-color: #aa6339 !important;
+  font-size: 150% !important;
+  background-color: #aa6339 !important;
+}
+
+a {
+  text-decoration: underline !important;
+}
+img {
+
+transform: rotate(30deg);
+width: 100px;
+position: absolute;
+left: 50%;
+bottom: 25px;
+}
+.item p {
+  line-height: 32px;   /* within paragraph */
+  margin-bottom: 30px;
+}
